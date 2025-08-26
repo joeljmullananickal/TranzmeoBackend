@@ -1,6 +1,6 @@
-Backend (FeathersJS + PostgreSQL) README.md
+# Backend (FeathersJS + PostgreSQL) README.md
 
-Setup
+## Setup
 
 Clone the repository:
 
@@ -8,29 +8,29 @@ git clone <repo-url>
 cd <repo-folder>
 
 
-Install dependencies:
+## Install dependencies:
 
 npm install
 
 
-Create environment variables:
+## Create environment variables:
 
 cp .env.example .env
 
 
-Run database migrations:
+## Run database migrations:
 
 npm run migrate
 
 
-Start development server:
+## Start development server:
 
 npm run dev
 
 
 The server will run on http://localhost:3030 (or the port defined in your code).
 
-Deployment
+## Deployment
 1. Start production server
 npm start
 
@@ -68,7 +68,7 @@ Example .env.example:
 DATABASE_URL=postgres://user:password@host:port/dbname
 
 
-Notes
+## Notes
 
 Ensure the PostgreSQL database is accessible from your host.
 
