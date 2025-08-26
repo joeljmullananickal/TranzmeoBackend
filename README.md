@@ -12,7 +12,6 @@ npm install
 Create environment variables:
 
 cp .env.example .env
-# Edit .env to add your PostgreSQL DATABASE_URL
 
 
 Run database migrations:
